@@ -6,8 +6,10 @@
 // HTML elements calling to js 
 
  var currentWeather = document.getElementsByClassName('currentWeather');
- var button = document.getElementsByClassName('btn btn-primary');
+ var button = document.getElementsByClassName('button');
  var fiveDaycast = document.getElementsByClassName('fiveDaycast');
 
 
-addEventListener
+document.addEventListener('click', button)
+
+console.log(button, 'it was clicked')
