@@ -8,8 +8,11 @@
  var currentWeather = document.getElementsByClassName('currentWeather');
  var button = document.getElementsByClassName('button');
  var fiveDaycast = document.getElementsByClassName('fiveDaycast');
+ var city = document.getElementsByClassName('form-control')
 
 
 document.addEventListener('click', button)
 
+
 console.log(button, 'it was clicked')
+console.log(city, 'city')
